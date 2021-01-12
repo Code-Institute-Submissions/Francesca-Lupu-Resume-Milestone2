@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+/*-----------------NAV----------------*/
+/*-----------------mobile----------------*/
+
+
+.navbar-about{
+    background-color: rgb(145, 211, 122);
+}
+
+.navbar-edu{
+    background-color:rgb(140, 127, 206) ;
+}
+
+.navbar-work{
+    background-color:rgb(118, 161, 224) ;
+}
+
+.navbar-hob{
+    background-color:rgb(203, 160, 248) ;
+}
+
+.navbar-con{
+    background-color:rgb(228, 140, 166) ;
+}
+
+.navbar-ski{
+background-color: #5cb9b5;
+}
+
+h2{
+    text-align: center;
+}
+
+.marker{
+    font-size: 50px;
+    color: red;
+}
+
+.pin{
+    font-size: 50px;
+    color: blue;
+}
+
+p{
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(153, 153, 153, 0.37);
+    color: white;
+    text-align: center;
+    z-index: 200;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    margin-top:10px;
+
+    }
+
+
+
+
+.progress {
+    position: relative;
+    height: 25px;
+    width: 200px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 15px;
+    color: #fafafa;
+}
+
+.progress{
+    margin-bottom: 10px;
+}
+
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+
+#map{
+    height: 400px;
+    width: 100%;
+}
