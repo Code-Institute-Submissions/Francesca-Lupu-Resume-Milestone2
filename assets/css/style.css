@@ -1,65 +1,23 @@
+/*-----------------|mobile|----------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playball&display=swap');
 
-
+/*-----------------GENERAL----------------*/
 
 body{
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-weight: 500;
     margin-bottom: 40px;
 }
-/*-----------------NAV----------------*/
-/*-----------------mobile----------------*/
 
 h2{
     font-family: 'Playball', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.edu{
-    background-color: rgba(179, 173, 211, 0.267);
-}
-
-.navbar-about{
-    background-color: rgb(145, 211, 122);
-}
-
-.navbar-edu{
-    background-color:rgb(179, 173, 211) ;
-}
-
-.navbar-work{
-    background-color:rgb(118, 161, 224) ;
-}
-
-.navbar-hob{
-    background-color:rgb(203, 160, 248) ;
-}
-
-.navbar-con{
-    background-color:rgb(228, 140, 166) ;
-}
-
-.navbar-ski{
-background-color: #5cb9b5;
-}
-
-h2{
     text-align: center;
-}
-
-.marker{
-    font-size: 50px;
-    color: red;
-}
-
-.pin{
-    font-size: 50px;
-    color: blue;
 }
 
 p{
@@ -70,6 +28,11 @@ p{
 .lists{
    padding: 20px; 
 }
+/*-----------------nav----------------*/
+
+
+/*-----------------footer----------------*/
+
 .footer {
     position: fixed;
     left: 0;
@@ -92,11 +55,47 @@ p{
     color: #fafafa;
     background: #8f8f8f;
     margin-top:10px;
-
     }
 
+/*-----------------ABOUT ME----------------*/
 
+.navbar-about{
+    background-color: rgb(145, 211, 122);
+}
 
+/*-----------------EDUCATION----------------*/
+
+.edu{
+    background-color: rgba(179, 173, 211, 0.267);
+}
+
+.navbar-edu{
+    background-color:rgb(179, 173, 211) ;
+}
+
+.marker{
+    font-size: 50px;
+    color: red;
+}
+/*-----------------WORK EXPERIENCE----------------*/
+
+.work{
+    background-color: rgba(118, 160, 224, 0.295);
+}
+
+.navbar-work{
+    background-color:rgb(118, 161, 224) ;
+}
+
+.pin{
+    font-size: 50px;
+    color: blue;
+}
+/*-----------------SKILLS----------------*/
+
+.navbar-ski{
+background-color: #5cb9b5;
+}
 
 .progress {
     position: relative;
@@ -121,6 +120,19 @@ p{
     margin: 40px 20px;
 }
 
+/*-----------------HOBBIES----------------*/
+
+.navbar-hob{
+    background-color:rgb(203, 160, 248) ;
+}
+
+/*-----------------CONTACT----------------*/
+
+.navbar-con{
+    background-color:rgb(228, 140, 166) ;
+}
+
+/*-----------------MAPS----------------*/
 
 #map{
     height: 200px;
