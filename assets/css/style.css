@@ -22,7 +22,6 @@ h2{
 
 p{
     word-wrap: break-word;
-    
 }
 
 .lists{
@@ -30,6 +29,10 @@ p{
 }
 /*-----------------nav----------------*/
 
+.nav-link{
+    color: black;
+    text-align: center;
+}
 
 /*-----------------footer----------------*/
 
@@ -63,6 +66,10 @@ p{
     background-color: rgb(145, 211, 122);
 }
 
+.about{
+    background-color: rgba(146, 211, 122, 0.322);
+}
+
 /*-----------------EDUCATION----------------*/
 
 .edu{
@@ -70,12 +77,12 @@ p{
 }
 
 .navbar-edu{
-    background-color:rgb(179, 173, 211) ;
+    background-color:rgb(179, 173, 211);
 }
 
 .marker{
     font-size: 50px;
-    color: red;
+    color: rgba(255, 0, 0, 0.795);
 }
 /*-----------------WORK EXPERIENCE----------------*/
 
@@ -84,17 +91,21 @@ p{
 }
 
 .navbar-work{
-    background-color:rgb(118, 161, 224) ;
+    background-color:rgb(118, 161, 224);
 }
 
 .pin{
     font-size: 50px;
-    color: blue;
+    color: rgba(0, 0, 255, 0.801);
 }
 /*-----------------SKILLS----------------*/
 
 .navbar-ski{
 background-color: #5cb9b5;
+}
+
+.skills{
+    background-color: #5cb9b454;
 }
 
 .progress {
@@ -123,15 +134,32 @@ background-color: #5cb9b5;
 /*-----------------HOBBIES----------------*/
 
 .navbar-hob{
-    background-color:rgb(203, 160, 248) ;
+    background-color:rgb(203, 160, 248);
+}
+
+.hobbies{
+    background-color: rgba(203, 160, 248, 0.349);
 }
 
 /*-----------------CONTACT----------------*/
 
 .navbar-con{
-    background-color:rgb(228, 140, 166) ;
+    background-color:rgb(228, 140, 166);
 }
 
+.contact{
+    background-color: rgba(228, 140, 166, 0.404);
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: rgb(228, 140, 166);
+    font-family: 'Playball', sans-serif;
+    font-size: 25px;
+}
 /*-----------------MAPS----------------*/
 
 #map{
