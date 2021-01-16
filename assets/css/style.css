@@ -15,9 +15,15 @@ body{
 
 h1{
     font-family: 'Playball', sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.secondtext{
+    text-align: center;
+    padding: 10px;
+    color: gray;
 }
 
 p{
@@ -25,7 +31,13 @@ p{
 }
 
 .lists{
-   padding: 20px; 
+   padding: 20px;
+   text-align: center;
+}
+
+.details{
+    text-align: left;
+    margin-bottom: 30px;
 }
 /*-----------------nav----------------*/
 
@@ -60,6 +72,39 @@ p{
     margin-top:10px;
     }
 
+/*-----------------HOMEPAGE----------------*/
+.home{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;  
+}
+
+canvas{
+    z-index: 1;
+    position: fixed;
+    padding: 0;
+}
+
+.homepic{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.circles a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 15px;
+    z-index: 30;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
 /*-----------------ABOUT ME----------------*/
 
 .navbar-about{
@@ -68,6 +113,19 @@ p{
 
 .about{
     background-color: rgba(146, 211, 122, 0.322);
+}
+
+.me{
+    width: 60%;
+}
+
+.image{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hello{
+    background-color: rgb(145, 211, 122);
 }
 
 /*-----------------EDUCATION----------------*/
@@ -81,7 +139,7 @@ p{
 }
 
 .marker{
-    font-size: 50px;
+    font-size: 40px;
     color: rgba(255, 0, 0, 0.795);
 }
 /*-----------------WORK EXPERIENCE----------------*/
@@ -95,7 +153,7 @@ p{
 }
 
 .pin{
-    font-size: 50px;
+    font-size: 40px;
     color: rgba(0, 0, 255, 0.801);
 }
 /*-----------------SKILLS----------------*/
@@ -140,6 +198,7 @@ background-color: #5cb9b5;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    margin-bottom: 20px;
 }
 
 .foto:hover{
