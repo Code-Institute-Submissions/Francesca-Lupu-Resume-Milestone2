@@ -1,0 +1,107 @@
+/*-----------------TABLETS----------------*/
+@media (min-width: 768px) {
+
+    .me{
+        width: 30%;
+    }
+
+    .details {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .center-ho{
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .text-center{
+        margin-top: 50px;
+    }
+
+    .form-control{
+        max-width: 80%;
+        margin: auto;
+        margin: 50px auto 20px auto;
+    }
+}
+
+/*-----------------DESKTOPS----------------*/
+@media (min-width: 992px) {
+
+    .francesca{
+        margin-top: 100px;
+        font-size: 100px;
+    }
+
+    .secondtext {
+        font-size: 30px;
+    }
+
+    .homepic{
+        width: 200px;
+    }
+
+    .circles a {
+        width: 200px;
+        height: 200px;
+        line-height: 150px;
+        font-size: 20px;
+    }
+
+    .hello{
+        font-size: 60px;
+    }
+
+    .intro{
+        font-size: 30px;
+    }
+
+    h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .lists{
+        margin-top: 50px;
+    }
+
+    .spacing{
+        margin-bottom: 50px;
+    }
+
+    .details{
+        margin-bottom: 50px;
+    }
+
+    h6{
+        font-size: 30px;
+    }
+
+    .grey{
+        font-size: 20px;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .card-body{
+        font-size: 20px;
+    }
+
+    .send{
+        font-size: 50px;
+        padding: 0 20px 0 20px;
+    }
+
+    .form-control{
+        height: 60px;
+        font-size: 30px;
+    }
+}
+
+/*-----------------LARGER DESKTOPS----------------*/
+@media (min-width: 1200px) {
+
+}

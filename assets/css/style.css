@@ -45,7 +45,6 @@ p{
     color: black;
     text-align: center;
 }
-
 /*-----------------footer----------------*/
 
 .footer {
@@ -103,6 +102,7 @@ canvas{
     margin: auto;
     margin-bottom: 10px;
     margin-top: 20px;
+    line-height: 70px;
 }
 
 /*-----------------ABOUT ME----------------*/
@@ -191,9 +191,9 @@ background-color: #5cb9b5;
     background-color: rgba(203, 160, 248, 0.349);
 }
 
-.photo{
+.photo img{
     background-color: inherit;
-    border: none;
+    border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -212,6 +212,7 @@ background-color: inherit;
 .card{
     width: 300px;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 /*-----------------CONTACT----------------*/
@@ -231,7 +232,7 @@ background-color: inherit;
 .send{
     background-color: rgb(228, 140, 166);
     font-family: 'Playball', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 /*-----------------MAPS----------------*/
 
