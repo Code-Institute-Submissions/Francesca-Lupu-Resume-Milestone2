@@ -11,7 +11,8 @@ body{
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-weight: 500;
     margin-bottom: 40px;
-    overflow-y: scroll;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 h1{
@@ -210,7 +211,7 @@ h4{
 }
 
 .foto:hover{
-background-color: inherit;
+    background-color: inherit;
 }
 
 .skill-buttons{
@@ -218,9 +219,13 @@ background-color: inherit;
 }
 
 .card{
-    width: 300px;
-    margin: auto;
+    width: 250px;
     margin-bottom: 15px;
+    margin: auto;
+}
+
+.card-body{
+    text-align: center;
 }
 
 /*-----------------CONTACT----------------*/

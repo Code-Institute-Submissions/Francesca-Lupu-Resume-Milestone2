@@ -92,6 +92,11 @@
 /*-----------------LARGER DESKTOPS----------------*/
 @media (min-width: 1200px) {
 
+
+    .home{
+        overflow: hidden;
+    }
+
     .francesca{
         font-size: 60px;
         margin-top: 30px;
@@ -106,19 +111,84 @@
         width: 150px;
         height: auto;
         border-radius: 50%;
-        margin: auto;
+        margin: auto;  
     }
 
-    .circles a{
-        display: inline;
-        margin: auto;
+    .circles a {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 15px;
+    z-index: 30;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 120px;
+    margin-left: 20px;
+}
+
+    .circles{
+        margin-left: 10px;
+    }
+
+    .me{
         width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        font-size: 10px;
-        z-index: 30;
-        position: relative;
-        line-height: 50px;
+    }
+
+    h1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    h6{
+        font-size: 20px;
+    }
+
+    .grey{
+        font-size: 15px;
+    }
+
+    .card{
+    width: 100px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    }
+
+    .photo img{
+        width: 200px;
+        margin-top: 50px;
+    }
+    
+
+    .order{
+        margin-top: 0px;
+    }
+
+    .form-control{
+        height: 30px;
+        font-size: 20px;
+        max-width: 50%;
+        margin-top: 20px;
+    }
+
+    .text-center{
+        margin-top: 5px;
+    }
+
+    .send{
+        font-size: 20px;
+        padding: 0 20px 0 20px;
+    }
+
+    .hello{
+        font-size: 40px;
+    }
+
+    .intro{
+        font-size: 20px;
+        text-align: center;
     }
 
 }
