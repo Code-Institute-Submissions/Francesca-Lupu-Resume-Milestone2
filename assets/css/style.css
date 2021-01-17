@@ -11,6 +11,7 @@ body{
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-weight: 500;
     margin-bottom: 40px;
+    overflow-y: scroll;
 }
 
 h1{
@@ -31,13 +32,11 @@ p{
 }
 
 .lists{
-   padding: 20px;
    text-align: center;
 }
 
-.details{
-    text-align: left;
-    margin-bottom: 30px;
+.order{
+    margin-top: 50px;
 }
 /*-----------------nav----------------*/
 
@@ -74,8 +73,7 @@ p{
 /*-----------------HOMEPAGE----------------*/
 .home{
     margin: 0px;
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;  
+    background-color: rgb(255, 255, 255); 
 }
 
 canvas{
@@ -116,7 +114,7 @@ canvas{
 }
 
 .me{
-    width: 60%;
+    width: 40%;
 }
 
 .image{
@@ -142,6 +140,11 @@ canvas{
     font-size: 40px;
     color: rgba(255, 0, 0, 0.795);
 }
+
+h4{
+    font-size: 20px;
+}
+
 /*-----------------WORK EXPERIENCE----------------*/
 
 .work{
@@ -156,10 +159,15 @@ canvas{
     font-size: 40px;
     color: rgba(0, 0, 255, 0.801);
 }
+
+.details{
+    text-align: left;
+    margin-bottom: 50px;
+}
 /*-----------------SKILLS----------------*/
 
 .navbar-ski{
-background-color: #5cb9b5;
+    background-color: #5cb9b5;
 }
 
 .skills{
@@ -172,7 +180,7 @@ background-color: #5cb9b5;
 }
 
 .sk-icon{
-    font-size: 40px;
+    font-size: 30px;
     color: #000000;
     padding: 20px;
 }
@@ -197,7 +205,7 @@ background-color: #5cb9b5;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
     margin-bottom: 20px;
 }
 
