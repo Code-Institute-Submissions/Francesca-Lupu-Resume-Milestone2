@@ -1,4 +1,5 @@
-/*-----------------TABLETS----------------*/
+/*-----------------|tablets|----------------*/
+
 @media (min-width: 768px) {
 
     .me{
@@ -27,7 +28,8 @@
     }
 }
 
-/*-----------------DESKTOPS  (+ IPAD PRO)----------------*/
+/*-----------------|desktop + ipad pro|----------------*/
+
 @media (min-width: 992px) {
 
     .me{
@@ -89,9 +91,9 @@
     }
 }
 
-/*-----------------LARGER DESKTOPS----------------*/
-@media (min-width: 1200px) {
+/*-----------------|larger desktop|----------------*/
 
+@media (min-width: 1200px) {
 
     .home{
         overflow: hidden;
@@ -115,22 +117,22 @@
     }
 
     .circles a {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    font-size: 15px;
-    z-index: 30;
-    position: relative;
-    display: inline-block;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    line-height: 120px;
-    margin-left: 20px;
-}
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 15px;
+        z-index: 30;
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        line-height: 120px;
+        margin-left: 20px;
+    }
 
     .circles{
-        margin-left: 10px;
+        text-align: center;
     }
 
     .me{
@@ -151,9 +153,9 @@
     }
 
     .card{
-    width: 100px;
-    margin-bottom: 15px;
-    font-size: 10px;
+        width: 100px;
+        margin-bottom: 15px;
+        font-size: 10px;
     }
 
     .photo img{
@@ -190,5 +192,4 @@
         font-size: 20px;
         text-align: center;
     }
-
 }

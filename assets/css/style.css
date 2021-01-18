@@ -1,9 +1,6 @@
 /*-----------------|mobile|----------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Playball&display=swap');
 
 /*-----------------GENERAL----------------*/
 
@@ -20,12 +17,6 @@ h1{
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-}
-
-.secondtext{
-    text-align: center;
-    padding: 10px;
-    color: gray;
 }
 
 p{
@@ -45,6 +36,7 @@ p{
     color: black;
     text-align: center;
 }
+
 /*-----------------footer----------------*/
 
 .footer {
@@ -72,6 +64,7 @@ p{
     }
 
 /*-----------------HOMEPAGE----------------*/
+
 .home{
     margin: 0px;
     background-color: rgb(255, 255, 255); 
@@ -88,6 +81,12 @@ canvas{
     height: auto;
     border-radius: 50%;
     margin: auto;
+}
+
+.secondtext{
+    text-align: center;
+    padding: 10px;
+    color: gray;
 }
 
 .circles a {
