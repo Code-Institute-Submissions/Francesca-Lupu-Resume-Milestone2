@@ -16,5 +16,10 @@ function sendMail (contactForm) {
     }   
 
 
+function clear () {
+    
+}
+
+
 
  

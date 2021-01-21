@@ -14,7 +14,7 @@ body{
 
 h1{
     font-family: 'Playball', sans-serif;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -37,6 +37,17 @@ p{
     text-align: center;
 }
 
+.hvr-bounce-in:hover {
+    color: white;
+}
+
+.select{
+    color: white;
+}
+
+.nav{
+    position: fixed;
+}
 /*-----------------footer----------------*/
 
 .footer {
@@ -63,17 +74,22 @@ p{
     margin-top:10px;
     }
 
+    .social-links li a i:hover {
+    background-color: #000000;
+}
+
 /*-----------------HOMEPAGE----------------*/
 
 .home{
     margin: 0px;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(2, 2, 2); 
 }
 
 canvas{
     z-index: 1;
     position: fixed;
     padding: 0;
+    filter: opacity(50%);
 }
 
 .homepic{
@@ -83,11 +99,21 @@ canvas{
     margin: auto;
 }
 
+.francesca{
+    color: white;
+}
+
 .secondtext{
     text-align: center;
     padding: 10px;
     color: gray;
+    margin-bottom: 60px;
 }
+
+.line{
+        font-size: small;
+        margin-top: 25px;
+    }
 
 .circles a {
     width: 100px;
@@ -101,7 +127,10 @@ canvas{
     margin-bottom: 10px;
     margin-top: 20px;
     line-height: 70px;
+    bottom: 60px;
 }
+
+
 
 /*-----------------ABOUT ME----------------*/
 
@@ -124,6 +153,33 @@ canvas{
 
 .hello{
     background-color: rgb(145, 211, 122);
+}
+
+.photo img{
+    background-color: inherit;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.foto:hover{
+    background-color: inherit;
+}
+
+.skill-buttons{
+    padding: 30px;
+}
+
+.card{
+    width: 250px;
+    margin: auto;
+}
+
+.card-body{
+    text-align: center;
 }
 
 /*-----------------EDUCATION----------------*/
@@ -188,43 +244,6 @@ h4{
 .grey{
     color: rgb(133, 112, 112);
     font-size: 13px;
-}
-/*-----------------HOBBIES----------------*/
-
-.navbar-hob{
-    background-color:rgb(128, 75, 184);
-}
-
-.hobbies{
-    background-color: rgba(203, 160, 248, 0.349);
-}
-
-.photo img{
-    background-color: inherit;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    margin-bottom: 20px;
-}
-
-.foto:hover{
-    background-color: inherit;
-}
-
-.skill-buttons{
-    padding: 30px;
-}
-
-.card{
-    width: 250px;
-    margin-bottom: 15px;
-    margin: auto;
-}
-
-.card-body{
-    text-align: center;
 }
 
 /*-----------------CONTACT----------------*/

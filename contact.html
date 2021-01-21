@@ -28,7 +28,7 @@
 
         <!--NAVIGATION MENU-->
 
-        <nav class="navbar navbar-expand-md navbar-con">
+        <nav class="navbar navbar-expand-md navbar-con fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +41,7 @@
                         <a class="nav-link hvr-bounce-in" href="education.html">Education</a>
                         <a class="nav-link hvr-bounce-in" href="work-experience.html">Work Experience</a>
                         <a class="nav-link hvr-bounce-in" href="skills.html">Skills</a>
-                        <a class="nav-link hvr-bounce-in" href="hobbies.html">Hobbies</a>
-                        <a class="nav-link hvr-bounce-in active" aria-current="page" href="contact.html">Contact</a>
+                        <a class="nav-link hvr-bounce-in active select" aria-current="page" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -53,12 +52,15 @@
         <section class="container-fluid">
             <div class="row bg-color-contact">
                 <div class="col">
-                    <h1 class="contact-heading uppercase text-center">Contact me!</h1>
-                    <h5 class="uppercase text-center">Fill up this form if you have questions.</h5>
+                    <h1>Contact me!</h1>
+                    <h5 class="text-center">Fill up this form if you have questions.</h5>
 
                     <div class="center-form">
-                        <form onsubmit="return sendMail(this);">
+                        <form name="myForm" onsubmit="return sendMail(this);">
+
+                            
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                            
                             <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required/>
                             <textarea rows="5" name="message" id="message" class="form-control" placeholder="How can I help you?" required></textarea>
                             <div class="form-row text-center">
@@ -99,6 +101,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        <script src="assets/js/sendEmail.js"></script>
+        <script src="assets/js/form.js"></script>
     </body> 
 </html>
