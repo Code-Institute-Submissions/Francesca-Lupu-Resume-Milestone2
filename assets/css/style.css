@@ -260,6 +260,12 @@ h4{
     margin-bottom: 10px;
 }
 
+form label{
+    color: red;
+    display: block;
+    text-align: center;
+}
+
 .send{
     background-color: rgb(228, 140, 166);
     font-family: 'Playball', sans-serif;
