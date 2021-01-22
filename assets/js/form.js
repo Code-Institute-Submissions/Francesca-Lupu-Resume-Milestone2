@@ -1,6 +1,7 @@
 
-$(function() {
+//validation form name, email and message
 
+$(function() {
   $("form[name='myForm']").validate({
     rules: {
       name: {
@@ -16,6 +17,8 @@ $(function() {
       }
     },
 
+    //validation messages
+
     messages: {
       name: "Please enter your name.",
       email: "Please enter a valid email address.",
@@ -25,14 +28,17 @@ $(function() {
       },
       
     },
-    // Make sure the form is submitted to the destination defined
-    // in the "action" attribute of the form when valid
+
+    //JSemail snippet
+
     submitHandler: function sendMail (contactForm) {
     emailjs.send("gmail", "my-resume", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
     })
+
+    //success + failure actions when clicking "submit"
 
     .then(
         function(response) {
@@ -42,15 +48,10 @@ $(function() {
         },
         function(error) {
             console.log("FAILED", error);
+            alert("Sorry, an error is been detected and the message is not been sent.\nCheck your connection and try again.");
         });
         return false;
         }
   });
 
 });
-    
-    
-
-
-
- 
