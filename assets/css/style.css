@@ -8,13 +8,12 @@ body{
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-weight: 500;
     margin-bottom: 40px;
-    overflow: auto;
-    overflow-x: hidden;
+    padding: 20px;
 }
 
 h1{
     font-family: 'Playball', sans-serif;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -47,6 +46,7 @@ p{
 
 .nav{
     position: fixed;
+    width: 100%;
 }
 /*-----------------footer----------------*/
 
@@ -155,6 +155,10 @@ canvas{
     background-color: rgb(145, 211, 122);
 }
 
+.intro{
+    margin: 30px;
+}
+
 .photo img{
     background-color: inherit;
     border-radius: 50%;
@@ -232,7 +236,6 @@ h4{
 
 .cen-skills{
     text-align: center;
-    padding: 20px;
 }
 
 .sk-icon{
