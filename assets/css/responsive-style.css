@@ -156,6 +156,10 @@
         width: 200px;
     }
 
+    .image{
+        position: fixed;
+    }
+
     h1{
         margin-bottom: 10px;
     }
