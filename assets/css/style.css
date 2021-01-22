@@ -180,6 +180,7 @@ canvas{
 .card{
     width: 250px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .card-body{

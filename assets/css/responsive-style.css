@@ -3,12 +3,16 @@
 @media (min-width: 768px) {
 
     .me{
-        width: 15%;
+        width: 40%;
     }
 
     .line{
         font-size: small;
         margin-top: 25px;
+    }
+
+    .card{
+        margin-bottom: 10px;
     }
 
     .details {
@@ -36,10 +40,6 @@
 /*-----------------|desktop + ipad pro|----------------*/
 
 @media (min-width: 992px) {
-
-    .me{
-        width: 50%;
-    }
 
     .francesca{
         margin-bottom: 20px;
