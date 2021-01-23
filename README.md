@@ -95,7 +95,6 @@ Click on the following link to view them.
 The first one, with a picture of mine in it contains the link to the home,
 the other ones contain the name and link to the other pages and are of the color of the page they represent.
 When hovering on them the text "bounces in" and gets white.
-
 The navigation menu changes in the other pages and it becomes a line on top of the screen with the names (and links) to the other pages.
 When you are for example in the "About me" page, the name of the page in the navigation menu with become white.
 This menu transforms in a collapsable hamburger menu on mobile devices.
@@ -104,10 +103,28 @@ This menu transforms in a collapsable hamburger menu on mobile devices.
 When hovering on one of these circles, they grow.
 This background is been chosen to match the navigation menu of the homepage. The background jumping circles have a 50% opacity in order to don't distract from the menu ones.
 
-* Footer: The footer is located on the bottom of every page. It is semy-transparent and it includes the links to my [Facebook](), [Instagram]() and [Twitter]() pages.
+* Footer: The footer is located on the bottom of every page. It is semy-transparent and it includes the links to my [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/) and [Twitter](https://www.twitter.com/) pages.
 The icons of the social networks are located into small grey circles that become black when hovering on them.
 
-* About m
+* About me: In this page is displayed a picture of me on the left that scrolls down when the page is being scrolled.
+On the right instead there is an inctroduction text about myself. At its bottom there are some pictures of my favorite hobbies displayed into ovals.
+Underneath every picture there is a card with a little text about each of them.
+
+* My Education: In this page, on the top is displayed a map from [GoogleMaps](https://www.google.com/maps) with some markers representing the last 3 places where I studied.
+When clicking on a marker, an infowindow will open and will display the name, type, address and phone number of each place.
+The markers contain some letters (A, B and C) and those are to connect them to the text located underneath the map.
+There is a little text for each location with the name, location, date I studied there and the title I got after completing the studies.
+
+* My Work Experience: This page is very similar to the previous. The only differences are that this time on the map are represented my previous employment places.
+These markers also contain letters to connect them to the texts under the map. In these texts this time there are also little lists with the tasks I had when working in that specific place.
+
+* My Skills: In the skills page I listed my top 6 skills. In order to identify them better and improve the design, on top of each skill there is an icon that represents it.
+
+* Contact me: In this page the visitors of the website can contact me. There is a form and filling up name, email address and message (and pressing "Submit") I will receive the message on my email.
+The form has some validation requirements: the name has to be filled in, the email address will be valid just if all the jQuery requirements are met and the message has to be long at least 10 characters.
+After all the requirements are met and the "Submit" button is been pressed an alert will inform the visitor if the message is been sent or not.
+If the message is been sent correctly the form will be cleared after pressing "OK" on the alert. 
+
 
 ---------------------------------------------------------------------------------------------------------------------------
 
