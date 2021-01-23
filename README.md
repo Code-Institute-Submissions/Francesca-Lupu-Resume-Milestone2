@@ -3,7 +3,9 @@
 
 ![My Resume](ADD PHOTO)
 
-LITTLE DESCRIPTION
+This website is been created to display my resume.
+Its scope is to provide to possible employers a better experience than the one given by a Curriculum Vitae
+printed on a sheet of paper.
 
 You can visit my resume by clicking [here](https://fral96.github.io/Milestone-2/).
 
