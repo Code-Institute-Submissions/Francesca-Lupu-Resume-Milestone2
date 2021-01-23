@@ -91,9 +91,23 @@ Click on the following link to view them.
 
 ### 2.1 Present Features
 
-* 
-* 
-* 
+* Navigation menu: In the homepage the links to the pages are in some colored circles.
+The first one, with a picture of mine in it contains the link to the home,
+the other ones contain the name and link to the other pages and are of the color of the page they represent.
+When hovering on them the text "bounces in" and gets white.
+
+The navigation menu changes in the other pages and it becomes a line on top of the screen with the names (and links) to the other pages.
+When you are for example in the "About me" page, the name of the page in the navigation menu with become white.
+This menu transforms in a collapsable hamburger menu on mobile devices.
+
+* Homepage background: The background of the homepage is been created with Javascript and is black with some colored circles jumping around.
+When hovering on one of these circles, they grow.
+This background is been chosen to match the navigation menu of the homepage. The background jumping circles have a 50% opacity in order to don't distract from the menu ones.
+
+* Footer: The footer is located on the bottom of every page. It is semy-transparent and it includes the links to my [Facebook](), [Instagram]() and [Twitter]() pages.
+The icons of the social networks are located into small grey circles that become black when hovering on them.
+
+* About m
 
 ---------------------------------------------------------------------------------------------------------------------------
 
