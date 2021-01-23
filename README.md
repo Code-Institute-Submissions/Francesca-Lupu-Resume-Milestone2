@@ -81,9 +81,9 @@ In fact, in my opinion in looking for a position in such creative work field, is
 The wireframes for this project were designed on Balsamiq.
 Click on the following link to view them.
 
-[Desktop](link)
-[Tablet](link)
-[Mobile](link)
+[Desktop](./assets/wireframes/desktop-wireframe.pdf)
+[Tablet](./assets/wireframes/tablet-wireframe.pdf)
+[Mobile](./assets/wireframes/mobile-wireframe.pdf)
 
 ------------------------------------------
 
