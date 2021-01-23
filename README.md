@@ -109,15 +109,17 @@ Click on the following link to view them.
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to write the code for the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - used to style the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - used to add interactive elements to the website.
+* [JQuery](https://jquery.com/) - used to add interactive features.
 * [Balsamiq](https://balsamiq.com/) - used to design the wireframes.
 * [Gitpod](https://www.gitpod.io/) - used to design and host the project.
 * [GitHub](https://github.com/) - used to hold the repository and deploy the project (GitHub Pages).
 * [Bootstrap](https://getbootstrap.com/) - used to create the structure of the website.
 * [Googlefonts](https://fonts.google.com/) - used for the website's fonts.
+* [GoogleCloudPlatform](https://en.wikipedia.org/wiki/Google_Cloud_Platform) - used to add the maps.
+* [AmIResponsive](http://ami.responsivedesign.is/#) - used for the READ ME picture.
 * [Fontawesome](https://fontawesome.com/) - used for the icons.
-* 
-* 
-* 
+* [JSEmail](https://www.emailjs.com/) - used to connect the form to my email.
 
 -----------------------------------------------------------
 
