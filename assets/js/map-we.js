@@ -28,10 +28,7 @@ var markers = [
 
     //Start Map + zoom + map type
 
-    window.onload = function () {
-        LoadMap();
-    }
-    function LoadMap() {
+    function initMap() {
         var mapOptions = {
             center: new google.maps.LatLng(51.5240359482379, -0.13184722797831577),
             zoom: 3,
