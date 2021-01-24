@@ -203,11 +203,32 @@ I removed it and luckily the error disappeared and the form was still working co
 
 #### Responsiveness
 
+To test the responsiveness of the website I used [DevTools](https://developers.google.com/web/tools/chrome-devtools).
+To check the devices where it was better supported instead, I used [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+The website is been also tested on my personal devices.
 
+Below in the table you can find some examples of the devices where the website looks good and all features work well.
+
+Mobile | Tablet | Desktop
+-------|--------|--------
+Iphone 3 to X | Ipad 8th Gen. | 19" to 24" desktop
+Samsung Galaxy S5-S6-S7 | Ipad Pro | 10" to 15" notebook
+Google Pixel| Ipad Mini |
+Huawei P Smart | Amazon Kindle Fire
 
 -----------------------------------------------------------------------------------------
 
-The website displays and functions correctly on the following browsers:
+The website was also tested in the following browsers:
+
+* [Chrome](https://www.google.com/intl/en_ie/chrome/)
+* [Safary](https://www.apple.com/safari/)
+* [Opera](https://www.opera.com/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Internet Explorer](https://www.microsoft.com/en-ie/download/details.aspx?id=41628)
+* [Edge](https://www.microsoft.com/en-us/edge)
+
+The website display perfectly and all the features work great on all browsers.
+
 
 
 ------------------------------------------------------------------------
