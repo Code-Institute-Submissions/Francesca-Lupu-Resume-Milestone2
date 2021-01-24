@@ -18,6 +18,10 @@ h1{
     text-align: center;
 }
 
+h4{
+    font-size: 20px;
+}
+
 p{
     word-wrap: break-word;
 }
@@ -130,8 +134,6 @@ canvas{
     bottom: 60px;
 }
 
-
-
 /*-----------------ABOUT ME----------------*/
 
 .navbar-about{
@@ -169,14 +171,6 @@ canvas{
     margin-bottom: 20px;
 }
 
-.foto:hover{
-    background-color: inherit;
-}
-
-.skill-buttons{
-    padding: 30px;
-}
-
 .card{
     width: 250px;
     margin: auto;
@@ -202,10 +196,6 @@ canvas{
     color: rgba(255, 0, 0, 0.795);
 }
 
-h4{
-    font-size: 20px;
-}
-
 /*-----------------WORK EXPERIENCE----------------*/
 
 .work{
@@ -227,12 +217,12 @@ h4{
 }
 /*-----------------SKILLS----------------*/
 
-.navbar-ski{
-    background-color: #5cb9b5;
-}
-
 .skills{
     background-color: #5cb9b454;
+}
+
+.navbar-ski{
+    background-color: #5cb9b5;
 }
 
 .cen-skills{
@@ -252,12 +242,12 @@ h4{
 
 /*-----------------CONTACT----------------*/
 
-.navbar-con{
-    background-color:rgb(228, 140, 166);
-}
-
 .contact{
     background-color: rgba(228, 140, 166, 0.404);
+}
+
+.navbar-con{
+    background-color:rgb(228, 140, 166);
 }
 
 .form-control{
