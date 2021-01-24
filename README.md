@@ -1,7 +1,7 @@
 # ReadMe - My resume
 ----------------------
 
-![My Resume](ADD PHOTO)
+![My Resume](./readme/responsive.png)
 
 This website is been created to display my resume.
 Its scope is to provide to possible employers a better experience than the one given by a Curriculum Vitae
