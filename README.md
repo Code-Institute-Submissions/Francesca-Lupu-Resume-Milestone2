@@ -81,9 +81,9 @@ In fact, in my opinion in looking for a position in such creative work field, is
 The wireframes for this project were designed on Balsamiq.
 Click on the following link to view them.
 
-[Desktop](./assets/wireframes/desktop-wireframe.pdf)
-[Tablet](./assets/wireframes/tablet-wireframe.pdf)
-[Mobile](./assets/wireframes/mobile-wireframe.pdf)
+* [Desktop](./assets/wireframes/desktop-wireframe.pdf)
+* [Tablet](./assets/wireframes/tablet-wireframe.pdf)
+* [Mobile](./assets/wireframes/mobile-wireframe.pdf)
 
 ------------------------------------------
 
@@ -122,7 +122,7 @@ These markers also contain letters to connect them to the texts under the map. I
 
 * Contact me: In this page the visitors of the website can contact me. There is a form and filling up name, email address and message (and pressing "Submit") I will receive the message on my email.
 The form has some validation requirements: the name has to be filled in, the email address will be valid just if all the jQuery requirements are met and the message has to be long at least 10 characters.
-After all the requirements are met and the "Submit" button is been pressed an alert will inform the visitor if the message is been sent or not.
+After all the requirements are met and the "Send" button is been pressed an alert will inform the visitor if the message is been sent or not.
 If the message is been sent correctly the form will be cleared after pressing "OK" on the alert. 
 
 
@@ -158,8 +158,47 @@ If the message is been sent correctly the form will be cleared after pressing "O
 
 #### Code Validators
 
+##### HTML files with [W3C](https://validator.w3.org/) :
 
+![passed test html](./readme/passed.png)
 
+* The index.html file passed the validator test.
+
+* The about-me.html file had 2 errors at first: I forgot to add the alt attribute to the images and I set their width to "100%" instead of to "100"(these errors were repeted for each image).
+Once I corrected that, the file passed the validator test.
+![about-me.html](./readme/aboutme.png)
+
+* The education.html file passed the validator test.
+
+* The work-experience.html file had 1 error at first: the W3C said that a closing paragraph tag was found but not an opening one (this error was repeted 3 times).
+The opening paragraph tag was actually there but I think the error was created by the fact that I placed an unordered list inside the paragraph.
+Once I moved the unordered list out of the paragraph the error disappeared.
+![work-experience.html](./readme/workexperience.png)
+
+* The skills.html file passed the validator test.
+
+* The contact.html file had 1 warning: In the snippet from EmailJS that connects the form to my email, insite the script tag there was also a type attribute (this error was found 2 times).
+I removed it and luckily the error disappeared and the form was still working correctly.
+![contact.html](./readme/contactme.png)
+
+##### CSS files with [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input) :
+
+![passed test css](./readme/css.png)
+
+* The style.css file passed the validator test.
+* The responsive-style.css file passed the validator test.
+
+#### JS files with [JSHint](https://jshint.com/) :
+
+* The form.js file passed the validator without errors.
+
+* The home.js file passed the validator without errors.
+
+* The map-edu.js file passed the validator without errors. It only had one warning. I decided to don't modify anything about.
+![map-edu.js](./readme/js.png)
+
+* The map-we.js file passed the validator without errors. It only had a warning. I decided to don't modify anything about.
+![map-we.js](./readme/js.png)
 -------------------------------------------------------------
 
 #### Responsiveness
