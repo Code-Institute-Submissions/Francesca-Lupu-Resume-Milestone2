@@ -1,34 +1,32 @@
-/*-----------------|tablets|----------------*/
+/*-----------------|TABLET|----------------*/
 
 @media (min-width: 768px) {
 
-    .me{
-        width: 40%;
-    }
+    /*--|homepage|--*/
 
     .line{
-        font-size: small;
-        margin-top: 25px;
+            font-size: small;
+            margin-top: 25px;
+        }
+
+    /*--|about me|--*/
+
+    .me{
+        width: 40%;
     }
 
     .card{
         margin-bottom: 10px;
     }
 
+    /*--|work experience|--*/
+
     .details {
         display: table;
         margin: 0 auto;
     }
 
-    .center-ho{
-        width: 50%;
-        height: auto;
-        margin-top: 20px;
-    }
-
-    .text-center{
-        margin-top: 50px;
-    }
+    /*--|contact me|--*/
 
     .form-control{
         max-width: 80%;
@@ -37,9 +35,26 @@
     }
 }
 
-/*-----------------|desktop + ipad pro|----------------*/
+/*-----------------|DESKTOP + IPAD PRO|----------------*/
 
 @media (min-width: 992px) {
+
+    /*--|general|--*/
+
+    h1{
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+
+    h6{
+        font-size: 30px;
+    }
+
+    .lists{
+        margin-top: 50px;
+    }
+
+    /*--|homepage|--*/
 
     .francesca{
         margin-bottom: 20px;
@@ -50,12 +65,14 @@
         margin-top: 25px;
     }
 
-    .photo img {
-        margin-top: 50px;
-    }
-
     .secondtext{
         margin-bottom: 80px;
+    }
+
+    /*--|about me|--*/
+
+    .photo img {
+        margin-top: 50px;
     }
 
     .hello{
@@ -66,32 +83,19 @@
         font-size: 20px;
     }
 
-    h1{
-        margin-bottom: 50px;
-        font-size: 60px;
+    .card-body{
+        font-size: 20px;
     }
 
-    .lists{
-        margin-top: 50px;
-    }
-
-    .spacing{
-        margin-bottom: 50px;
-    }
-
-    h6{
-        font-size: 30px;
-    }
-
+    /*--|skills|--*/
+    
     .grey{
         font-size: 20px;
         max-width: 80%;
         margin: auto;
     }
 
-    .card-body{
-        font-size: 20px;
-    }
+    /*--|contact me|--*/
 
     .send{
         font-size: 50px;
@@ -102,16 +106,27 @@
         height: 60px;
         font-size: 30px;
     }
-
 }
 
-/*-----------------|larger desktop|----------------*/
+/*-----------------|LARGER DESKTOPS|----------------*/
 
 @media (min-width: 1200px) {
 
-    .home{
-        overflow: hidden;
+    /*--|general|--*/
+
+    h1{
+        margin-bottom: 10px;
     }
+
+    h6{
+        font-size: 20px;
+    }
+
+    .order{
+        margin-top: 0px;
+    }
+
+    /*--|homepage|--*/
 
     .francesca{
         font-size: 60px;
@@ -153,20 +168,10 @@
         text-align: center;
     }
 
+    /*--|about me|--*/
+
     .image{
         position: fixed;
-    }
-
-    h1{
-        margin-bottom: 10px;
-    }
-
-    h6{
-        font-size: 20px;
-    }
-
-    .grey{
-        font-size: 15px;
     }
 
     .card{
@@ -176,32 +181,6 @@
         margin-top: 50px;
     }
 
-    .photo img{
-        width: 200px;
-        margin-top: 50px;
-    }
-    
-
-    .order{
-        margin-top: 0px;
-    }
-
-    .form-control{
-        height: 30px;
-        font-size: 20px;
-        max-width: 50%;
-        margin-top: 20px;
-    }
-
-    .text-center{
-        margin-top: 5px;
-    }
-
-    .send{
-        font-size: 20px;
-        padding: 0 20px 0 20px;
-    }
-
     .hello{
         font-size: 40px;
     }
@@ -209,5 +188,30 @@
     .intro{
         font-size: 20px;
         text-align: center;
+    }
+
+    .photo img{
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    /*--|skills|--*/
+
+    .grey{
+        font-size: 15px;
+    }
+
+    /*--|contact me|--*/
+    
+    .form-control{
+        height: 30px;
+        font-size: 20px;
+        max-width: 50%;
+        margin-top: 20px;
+    }
+
+    .send{
+        font-size: 20px;
+        padding: 0 20px 0 20px;
     }
 }
