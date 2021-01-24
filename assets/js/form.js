@@ -1,5 +1,5 @@
 
-//validation form name, email and message
+//Validation form name, email and message
 
 $(function() {
   $("form[name='myForm']").validate({
@@ -17,7 +17,7 @@ $(function() {
       }
     },
 
-    //validation messages
+//Validation messages
 
     messages: {
       name: "Please enter your name.",
@@ -29,7 +29,7 @@ $(function() {
       
     },
 
-    //JSemail snippet
+//EmailJS snippet
 
     submitHandler: function sendMail (contactForm) {
     emailjs.send("gmail", "my-resume", {
@@ -38,7 +38,7 @@ $(function() {
         "message": contactForm.message.value
     })
 
-    //success + failure actions when clicking "submit"
+//Success + failure actions when clicking "Send"
 
     .then(
         function(response) {
@@ -52,6 +52,5 @@ $(function() {
         });
         return false;
         }
-  });
-
+    });
 });

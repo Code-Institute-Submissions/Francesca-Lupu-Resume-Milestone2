@@ -1,5 +1,5 @@
 
-//Markers
+//Infowindows content
 
 var markers = [
     {
@@ -22,11 +22,11 @@ var markers = [
     }
     ];
 
-    //Labels of the markers
+//Labels of the markers
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    //Start Map + zoom + map type
+//Start Map + zoom + map type
 
     function initMap () {
         var mapOptions = {
@@ -36,7 +36,7 @@ var markers = [
         };
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
  
-        //InfoWindow
+//Connect infowindows to markers
 
         var infoWindow = new google.maps.InfoWindow();
  
@@ -50,7 +50,7 @@ var markers = [
                 title: data.title
             });
  
-            //Click event
+//Click event
 
             (function (marker, data) {
                 google.maps.event.addListener(marker, "click", function() {
