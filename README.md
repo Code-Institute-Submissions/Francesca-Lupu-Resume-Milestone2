@@ -3,8 +3,8 @@
 
 ![My Resume](./readme/responsive.png)
 
-This website is been created to display my resume.
-Its scope is to provide to possible employers a better experience than the one given by a Curriculum Vitae
+This website has been created to display my resume.
+Its scope is to provide to possible employers a better experience than the traditioal method of a Curriculum Vitae
 printed on a sheet of paper.
 
 You can visit my resume by clicking [here](https://fral96.github.io/Milestone-2/).
@@ -14,14 +14,14 @@ You can visit my resume by clicking [here](https://fral96.github.io/Milestone-2/
 
 ### 1.1 Project goals
 
-This resume website is been designed to help both potential employers and myself.
+This resume website has been designed to help both potential employers and myself.
 
 The idea is that an employer with a vacant position in his company could view my website
-and get an idea about me and about my coding skills (at least enough to convince him to contact me).
+and get an idea about me and about my coding skills.
 
-This will certainly also be a big help for myself as it could be a useful tool in getting an employment in this field.
+This will certainly also be helpful personaly as it could be a useful tool in securing future employment in this field.
 
-In fact, in my opinion in looking for a position in such creative work field, is needed something more creative than a simple printed resume.
+In fact, in my opinion while looking for a position in such creative work field, there is a need for more than a simple paper resume 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ In fact, in my opinion in looking for a position in such creative work field, is
 * As a moderator I want visitors and potential employers to view my resume, so they can understand more about me and possibly offer me a job.
 * As a visitor I want to understand more about the moderator so I can appreciate if she can be the right person for my vacant place.
 * As a moderator, I want my website to be easily accessible, that's why I will make it responsive for a large range of devices.
-* As a visitor, I want to be able to view the moderator's website/resume even if I am on the go, that's why I want it to be possible to accede from my smartphone or tablet, besides my pc.
+* As a visitor, I want to be able to view the moderator's website/resume even if I am on the go, that's why I want it to be possible to access from my smartphone or tablet, besides my pc.
 * As a moderator I want the visitor to feel like he/she knows a bit about me so I will provide access to my personal social media.
 * As a visitor I want to browse through the moderator’s website so I can get an idea about both her skills and her personality.
 
@@ -41,20 +41,20 @@ In fact, in my opinion in looking for a position in such creative work field, is
 * As a moderator I want my webpage to be eye catching but still be simple and clean so it will impress and attract the visitor. 
 * As a visitor I want to be attracted by the design first so I will be more persuaded to look into the website.
 * As a moderator I want my website to be easy to consult so I will provide the visitor with an intuitive navigation menu to allow him/her to access the various areas.
-* As a visitor I want to easily browse between the website sections that’s why I want the menu to be simple functional.
+* As a visitor I want to easily browse between the website sections that’s why I want the menu to be simple and functional.
 
 #### About me
 
 * As a moderator I want the visitors to understand who I am that is why I will provide this section with a picture of me and an introduction.
-* As a visitor is nice to put a face to a name that is why I would like to see a picture and read a few lines about her in order to know who I am reading about.
-* As a moderator I want the visitor to know, besides professional information about me, also something more personal, that is why I want to add to my intro some of my hobbies.
+* As a visitor it is nice to put a face to a name that is why I would like to see a picture and read a few lines about her in order to know who I am reading about.
+* As a moderator I want the visitor to know, besides professional information about me, also something more personal, that is why I want to add my hobbies.
 * As a visitor I want to have a little but global knowledge about the person I am considering for my vacant position, for this motivation I would also like to know what her passions and her interests are.
 
 #### Education
 
 * As a moderator I want the visitors to easily see on a map the places where I studied so that they can understand more about my background.
 * As a visitor I want to easily see where the moderator got her education and built her skills so I can have more details about her and her studies.
-* As a moderator I want the visitor to be able to get all the necessary information about where I got my eduaction; for this reason I will provide phone number and address for each of the places.
+* As a moderator I want the visitor to be able to get all the necessary information about where I recieved my eduaction; for this reason I will provide phone number and address for each of the places.
 * As a visitor I want to have access to some details on the places where the moderator studied in case I would need to contact them for references.
 
 #### Work Experience
@@ -62,7 +62,7 @@ In fact, in my opinion in looking for a position in such creative work field, is
 * As a moderator I want to display all my working experiences on a map so that the visitor will see at a glance all the places I worked before.
 * As a visitor and possible future employer, I want to see where the moderator worked before as I can get an idea of her background and experiences.
 * As a moderator, I want the visitors to be able to get information about the places I worked, that's why I will provide every place with some extra details.
-* As a visitor, if I read about a place that I am not familiar with I would like to be able to check it out; that's why I would like to have some extra information about the moderators previous work places.
+* As a visitor, if I read about a place that I am not familiar with I would like to be able to research it ; that's why I would like to have some extra information about the moderators previous work places.
 
 #### Skills
 
@@ -103,7 +103,7 @@ This menu transforms in a collapsable hamburger menu on mobile devices.
 When hovering on one of these balls, they grow.
 This background is been chosen to match the navigation menu of the homepage. The background jumping balls have a 50% opacity in order to don't distract from the menu ones.
 
-* Footer: The footer is located on the bottom of every page. It is semy-transparent and it includes the links to my [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/) and [Twitter](https://www.twitter.com/) pages.
+* Footer: The footer is located on the bottom of every page. It is semi-transparent and it includes the links to my [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/) and [Twitter](https://www.twitter.com/) pages.
 The icons of the social networks are located into small grey circles that become black when hovering on them.
 
 * About me: In this page is displayed a picture of me on the left that scrolls down when the page is being scrolled.
@@ -131,7 +131,7 @@ If the message is been sent correctly the form will be cleared after pressing "O
 ### 2.2 Future Features
 
 * In the future I would like to switch the introduction of the "About Me" page with a video introduction.
-* I would also like tu add on mobile devices an "up" button on the bottom of the pages where scrolling is necessary so that by clicking it the page will scroll up completely by itself.
+* I would also like to add on mobile devices an "up" button on the bottom of the pages where scrolling is necessary so that by clicking it the page will scroll up completely by itself.
 * Finally I would like to add a JS animation when sending a message in the "Contact me" page.
 
 ------------------------------------------------------------------------------------
@@ -238,7 +238,7 @@ The website display perfectly and all the features work great on all browsers.
 * As a moderator I want visitors and potential employers to view my resume, so they can understand more about me and possibly offer me a job.
 * As a visitor I want to understand more about the moderator so I can appreciate if she can be the right person for my vacant place.
 * As a moderator, I want my website to be easily accessible, that's why I will make it responsive for a large range of devices.
-* As a visitor, I want to be able to view the moderator's website/resume even if I am on the go, that's why I want it to be possible to accede from my smartphone or tablet, besides my pc.
+* As a visitor, I want to be able to view the moderator's website/resume even if I am on the go, that's why I want it to be possible to access from my smartphone or tablet, besides my pc.
 * As a moderator I want the visitor to feel like he/she knows a bit about me so I will provide access to my personal social media.
 * As a visitor I want to browse through the moderator’s website so I can get an idea about both her skills and her personality.
 
@@ -251,7 +251,7 @@ The resume is designed to show both my hard and soft skills to give a global ide
 * As a moderator I want my webpage to be eye catching but still be simple and clean so it will impress and attract the visitor. 
 * As a visitor I want to be attracted by the design first so I will be more persuaded to look into the website.
 * As a moderator I want my website to be easy to consult so I will provide the visitor with an intuitive navigation menu to allow him/her to access the various areas.
-* As a visitor I want to easily browse between the website sections that’s why I want the menu to be simple functional.
+* As a visitor I want to easily browse between the website sections that’s why I want the menu to be simple and functional.
 
 The homepage background is been designed to be eyecatching and coherent with the rest of the page but to not distract from the main menu.
 The navigation menu is intuitive and located in the center of the page. By clicking on the name of the selected page he/she will immediately accede it.
@@ -259,8 +259,8 @@ The navigation menu is intuitive and located in the center of the page. By click
 #### About me
 
 * As a moderator I want the visitors to understand who I am that is why I will provide this section with a picture of me and an introduction.
-* As a visitor is nice to put a face to a name that is why I would like to see a picture and read a few lines about her in order to know who I am reading about.
-* As a moderator I want the visitor to know, besides professional information about me, also something more personal, that is why I want to add to my intro some of my hobbies.
+* As a visitor it is nice to put a face to a name that is why I would like to see a picture and read a few lines about her in order to know who I am reading about.
+* As a moderator I want the visitor to know, besides professional information about me, also something more personal, that is why I want to add my hobbies.
 * As a visitor I want to have a little but global knowledge about the person I am considering for my vacant position, for this motivation I would also like to know what her passions and her interests are.
 
 On this page I displayed a picture of myself so that the visitors can put a face on the name. I also wrote a little introduction about me and explaining the working position I am looking for.
@@ -270,7 +270,7 @@ Underneath this intro, the visitor can find also a little section with my main 4
 
 * As a moderator I want the visitors to easily see on a map the places where I studied so that they can understand more about my background.
 * As a visitor I want to easily see where the moderator got her education and built her skills so I can have more details about her and her studies.
-* As a moderator I want the visitor to be able to get all the necessary information about where I got my eduaction; for this reason I will provide phone number and address for each of the places.
+* As a moderator I want the visitor to be able to get all the necessary information about where I recieved my eduaction; for this reason I will provide phone number and address for each of the places.
 * As a visitor I want to have access to some details on the places where the moderator studied in case I would need to contact them for references.
 
 In this page the visitor can view on a map the last 3 places I studies, moreover by clicking on the marker it will be displayed some contact information for each place.
@@ -281,7 +281,7 @@ Underneath the map the visitor will find information about what I did in those l
 * As a moderator I want to display all my working experiences on a map so that the visitor will see at a glance all the places I worked before.
 * As a visitor and possible future employer, I want to see where the moderator worked before as I can get an idea of her background and experiences.
 * As a moderator, I want the visitors to be able to get information about the places I worked, that's why I will provide every place with some extra details.
-* As a visitor, if I read about a place that I am not familiar with I would like to be able to check it out; that's why I would like to have some extra information about the moderators previous work places.
+* As a visitor, if I read about a place that I am not familiar with I would like to be able to research it ; that's why I would like to have some extra information about the moderators previous work places.
 
 In this page, as the previous one, some locations will be shown on a map. The visitor this time will be able to see the last 3 places where I worked.
 By clicking on the marker he/she will be able to get address and phone number of the places.
@@ -361,11 +361,15 @@ The procedure was the following:
 #### 6.1 Content 
 
 This website is been created by me. The general structure is been inspired by the [Rosie Resume](https://github.com/FraL96/Rosie_resume) from [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) and from the [Milestone 1](https://github.com/FraL96/Milestone_1_StreamingPal_Website) created by me.
+
 The homepage background is been created by [Roger van Hout](https://codepen.io/b4rb4tron/pen/wjyXNJ) and then modified by me to adapt it to my project.
+
 The icons used in the "My Skills" area are from [Fontawesome](https://fontawesome.com/v4.7.0/).
+
 To realize the maps in the "My Education" and "My Work Experience" pages I got the [Google](https://developers.google.com/maps/documentation/javascript/examples/marker-simple) snippet on how to create a map with a marker,
 then I combined it with a snippet from [ASP Snippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx) to add the infowindows.
 The maps have then been customized by me.
+
 The contact form is been implemented with [EmailJS](https://www.emailjs.com/) to connect it to my personal email. Moreover I followed the tutorial to add the [JQuery Validator](https://jqueryvalidation.org/).
 [W3School](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) helped me when I got stuck or I needed an advice.
 
