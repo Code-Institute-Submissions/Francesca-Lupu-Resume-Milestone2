@@ -110,7 +110,7 @@ The icons of the social networks are located into small grey circles that become
 On the right instead there is an inctroduction text about myself. At its bottom there are some pictures of my favorite hobbies displayed into ovals.
 Underneath every picture there is a card with a little text about each of them.
 
-* My Education: In this page, on the top is displayed a map from [GoogleMaps](https://www.google.com/maps) with some markers representing the last 3 places where I studied.
+* My Education: In this page, on the top is displayed a map from [Google Maps](https://www.google.com/maps) with some markers representing the last 3 places where I studied.
 When clicking on a marker, an infowindow will open and will display the name, type, address and phone number of each place.
 The markers contain some letters (A, B and C) and those are to connect them to the text located underneath the map.
 There is a little text for each location with the name, location, date I studied there and the title I got after completing the studies.
@@ -146,11 +146,11 @@ If the message is been sent correctly the form will be cleared after pressing "O
 * [Gitpod](https://www.gitpod.io/) - used to design and host the project.
 * [GitHub](https://github.com/) - used to hold the repository and deploy the project (GitHub Pages).
 * [Bootstrap](https://getbootstrap.com/) - used to create the structure of the website.
-* [Googlefonts](https://fonts.google.com/) - used for the website's fonts.
-* [GoogleCloudPlatform](https://en.wikipedia.org/wiki/Google_Cloud_Platform) - used to add the maps.
+* [Google fonts](https://fonts.google.com/) - used for the website's fonts.
+* [Google Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform) - used to add the maps.
 * [AmIResponsive](http://ami.responsivedesign.is/#) - used for the READ ME picture.
 * [Fontawesome](https://fontawesome.com/) - used for the icons.
-* [JSEmail](https://www.emailjs.com/) - used to connect the form to my email.
+* [Email JS](https://www.emailjs.com/) - used to connect the form to my email.
 
 -----------------------------------------------------------
 
@@ -343,11 +343,15 @@ The procedure was the following:
 7. Type "git clone" and paste the copied link
 8. Press enter and the file will show up in the selected location
 
--------------------------------------------
+--------------------------------------------------------------------------
 
 ### 6.Credits
 
 #### 6.1 Content 
+
+This website is been created by me. The general structure is been inspired by the [Rosie Resume]() from [Code Institute]() and from the [Milestone 1]() created by me.
+The [uno.jpg](./assets/pics/uno.jpg) and [netflix.jpg](./assets/pics/netflix.jpg) pictures have been taken from [Unsplash](https://unsplash.com/) while the other pictures that have been used belong to me.
+The homepage background is been created by [Roger van Hout](https://codepen.io/b4rb4tron/pen/wjyXNJ) and then modified by me to adapt it to my project.
 
 
 
