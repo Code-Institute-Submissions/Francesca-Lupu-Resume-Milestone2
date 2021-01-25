@@ -91,7 +91,7 @@ Click on the following link to view them.
 
 ### 2.1 Present Features
 
-* Navigation menu: In the homepage the links to the pages are in some colored circles.
+* Navigation menu: In the homepage the links to the pages are in some colored balls.
 The first one, with a picture of mine in it contains the link to the home,
 the other ones contain the name and link to the other pages and are of the color of the page they represent.
 When hovering on them the text "bounces in" and gets white.
@@ -99,9 +99,9 @@ The navigation menu changes in the other pages and it becomes a line on top of t
 When you are for example in the "About me" page, the name of the page in the navigation menu with become white.
 This menu transforms in a collapsable hamburger menu on mobile devices.
 
-* Homepage background: The background of the homepage is been created with Javascript and is black with some colored circles jumping around.
-When hovering on one of these circles, they grow.
-This background is been chosen to match the navigation menu of the homepage. The background jumping circles have a 50% opacity in order to don't distract from the menu ones.
+* Homepage background: The background of the homepage is been created with Javascript and is black with some colored balls jumping around.
+When hovering on one of these balls, they grow.
+This background is been chosen to match the navigation menu of the homepage. The background jumping balls have a 50% opacity in order to don't distract from the menu ones.
 
 * Footer: The footer is located on the bottom of every page. It is semy-transparent and it includes the links to my [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/) and [Twitter](https://www.twitter.com/) pages.
 The icons of the social networks are located into small grey circles that become black when hovering on them.
@@ -306,8 +306,19 @@ I will immediately receive that message in my personal email.
 
 #### Bugs
 
+* At the beginning I had a problem in making work well the hamburger menu on the mobiles.
+I could see the icon but nothing happened when I pressed.
+By searching on [Bootstrap](https://getbootstrap.com/) I found out that I had to add the JS Bootstrap CDN to my code to make it work.
 
+* I also had some issue in positioning the text "Work Experience" in the ball in the "Homepage".
+I tried to use "line-height" to position the text of all the page names at the center of their ball.
+However being "Work Experience" written on two lines, by applying that styling the space was applyed also between the 2 lines of this text, placing the word "Work" in the center of the ball,
+while the word "Experince" in the bottom, out of the ball. I solved this by using "margin-top" instead.
 
+* I also had a little issue with the background of the Homepage. At first I set it on white with bright colored balls.
+Then, also with the help of my mentor, I noticed that it made it a bit difficult and a bit distracting to distinguish the background balls from the menu ones.
+To solve this issue I set the background on black and applyed a 50% opacity to the background balls.
+This will maintaing the coherence of the page by reducing the distraction.
 
 ---------------------------------------------------------------------------
 
