@@ -316,13 +316,32 @@ I will immediately receive that message in my personal email.
 
 #### To deploy the project
 
+I deployed this website on Github pages. 
+The procedure was the following:
 
+1. Google search "Github" and click the first result.
+2. Log in with my username and password
+3. Select the repository "Milestone-2"
+4. Click on settings
+5. Scroll down to "Github Pages"
+6. Select Branch as Master and save
+7. Refresh the page
+8. Scroll down to the same section
+9. A message will appear saying "Your site is published at: https://fral96.github.io/Milestone-2/ "
+10. Click on that URL and you will be redirected to the website
 
 --------------------------------------------------------------------
 
 #### To clone the project
 
-
+1. Google search "Github" and click the first result.
+2. Log in with my username and password
+3. Select the repository "Milestone-2"
+4. Click on the green "Code" button on the right
+5. Copy the HTTPS link
+6. Open your terminal and select the position where to clone the project
+7. Type "git clone" and paste the copied link
+8. Press enter and the file will show up in the selected location
 
 -------------------------------------------
 
