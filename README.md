@@ -130,9 +130,9 @@ If the message is been sent correctly the form will be cleared after pressing "O
 
 ### 2.2 Future Features
 
-* 
-* 
-* 
+* In the future I would like to switch the introduction of the "About Me" page with a video introduction.
+* I would also like tu add on mobile devices an "up" button on the bottom of the pages where scrolling is necessary so that by clicking it the page will scroll up completely by itself.
+* Finally I would like to add a JS animation when sending a message in the "Contact me" page.
 
 ------------------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ If the message is been sent correctly the form will be cleared after pressing "O
 * [Google fonts](https://fonts.google.com/) - used for the website's fonts.
 * [Google Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform) - used to add the maps.
 * [AmIResponsive](http://ami.responsivedesign.is/#) - used for the READ ME picture.
-* [Fontawesome](https://fontawesome.com/) - used for the icons.
+* [Fontawesome](https://fontawesome.com/v4.7.0/) - used for the icons.
 * [Email JS](https://www.emailjs.com/) - used to connect the form to my email.
 
 -----------------------------------------------------------
@@ -349,17 +349,27 @@ The procedure was the following:
 
 #### 6.1 Content 
 
-This website is been created by me. The general structure is been inspired by the [Rosie Resume]() from [Code Institute]() and from the [Milestone 1]() created by me.
-The [uno.jpg](./assets/pics/uno.jpg) and [netflix.jpg](./assets/pics/netflix.jpg) pictures have been taken from [Unsplash](https://unsplash.com/) while the other pictures that have been used belong to me.
+This website is been created by me. The general structure is been inspired by the [Rosie Resume](https://github.com/FraL96/Rosie_resume) from [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) and from the [Milestone 1](https://github.com/FraL96/Milestone_1_StreamingPal_Website) created by me.
 The homepage background is been created by [Roger van Hout](https://codepen.io/b4rb4tron/pen/wjyXNJ) and then modified by me to adapt it to my project.
-
-
+The icons used in the "My Skills" area are from [Fontawesome](https://fontawesome.com/v4.7.0/).
+To realize the maps in the "My Education" and "My Work Experience" pages I got the [Google](https://developers.google.com/maps/documentation/javascript/examples/marker-simple) snippet on how to create a map with a marker,
+then I combined it with a snippet from [ASP Snippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx) to add the infowindows.
+The maps have then been customized by me.
+The contact form is been implemented with [EmailJS](https://www.emailjs.com/) to connect it to my personal email. Moreover I followed the tutorial to add the [JQuery Validator](https://jqueryvalidation.org/).
+[W3School](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) helped me when I got stuck or I needed an advice.
 
 -------------------------------------------------------------------
 
 #### 6.1 Media
 
-
+The [uno.jpg](./assets/pics/uno.jpg) and [netflix.jpg](./assets/pics/netflix.jpg) pictures have been taken from [Unsplash](https://unsplash.com/) while the other pictures that have been used belong to me.
 
 #### 6.2 Acknowledgments
 
+I have to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) that gave me great advices for this milestone.
+
+Thank you to my partner [Cathal Moore](https://www.linkedin.com/in/cathal-moore-674949197/) for always helping me and sustaining me in every possible way.
+
+To my parents [Monica and Gabriel](https://www.facebook.com/lupu.emonica), for never stopping to believe in me.
+
+To [Declan Moore](https://www.linkedin.com/in/declan-moore-83728b80/) for introducing me to Code Institute.
