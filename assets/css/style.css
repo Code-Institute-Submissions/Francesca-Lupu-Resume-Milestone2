@@ -33,6 +33,12 @@ p{
 .order{
     margin-top: 50px;
 }
+
+.logo{
+    width: 100px;
+}
+
+
 /*-----------------nav----------------*/
 
 .nav-link{
@@ -52,6 +58,7 @@ p{
     position: fixed;
     width: 100%;
 }
+
 /*-----------------footer----------------*/
 
 .footer {
