@@ -131,7 +131,7 @@ If the message is been sent correctly the form will be cleared after pressing "O
 ### 2.2 Future Features
 
 * In the future I would like to switch the introduction of the "About Me" page with a video introduction.
-* I would also like to add on mobile devices an "up" button on the bottom of the pages where scrolling is necessary so that by clicking it the page will scroll up completely by itself.
+* I would like to add a page with my portfolio where to display (or to link to) my best and most recent projects.
 * Finally I would like to add a JS animation when sending a message in the "Contact me" page.
 
 ------------------------------------------------------------------------------------
