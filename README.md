@@ -163,31 +163,13 @@ If the message is been sent correctly the form will be cleared after pressing "O
 
 ![passed test html](./readme/passed.png)
 
-* The index.html file passed the validator test.
-
-* The about-me.html file had 2 errors at first: I forgot to add the alt attribute to the images and I set their width to "100%" instead of to "100"(these errors were repeted for each image).
-Once I corrected that, the file passed the validator test.
-![about-me.html](./readme/aboutme.png)
-
-* The education.html file passed the validator test.
-
-* The work-experience.html file had 1 error at first: the W3C said that a closing paragraph tag was found but not an opening one (this error was repeted 3 times).
-The opening paragraph tag was actually there but I think the error was created by the fact that I placed an unordered list inside the paragraph.
-Once I moved the unordered list out of the paragraph the error disappeared.
-![work-experience.html](./readme/workexperience.png)
-
-* The skills.html file passed the validator test.
-
-* The contact.html file had 1 warning: In the snippet from EmailJS that connects the form to my email, insite the script tag there was also a type attribute (this error was found 2 times).
-I removed it and luckily the error disappeared and the form was still working correctly.
-![contact.html](./readme/contactme.png)
+* All the HTML files passed the validator test.
 
 ##### CSS files with [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input) :
 
 ![passed test css](./readme/css.png)
 
-* The style.css file passed the validator test.
-* The responsive-style.css file passed the validator test.
+* Both the CSS files passed the validator test.
 
 #### JS files with [JSHint](https://jshint.com/) :
 
@@ -195,11 +177,8 @@ I removed it and luckily the error disappeared and the form was still working co
 
 * The home.js file passed the validator without errors.
 
-* The map-edu.js file passed the validator without errors. It only had one warning. I decided to don't modify anything about.
+* The map-edu.js and map-we.js files passed the validator without errors. They only had one warning. I decided to don't modify anything about it.
 ![map-edu.js](./readme/js.png)
-
-* The map-we.js file passed the validator without errors. It only had a warning. I decided to don't modify anything about.
-![map-we.js](./readme/js.png)
 -------------------------------------------------------------
 
 #### Responsiveness
@@ -336,6 +315,21 @@ while the word "Experince" in the bottom, out of the ball. I solved this by usin
 Then, also with the help of my mentor, I noticed that it made it a bit difficult and a bit distracting to distinguish the background balls from the menu ones.
 To solve this issue I set the background on black and applyed a 50% opacity to the background balls.
 This will maintaing the coherence of the page by reducing the distraction.
+
+##### Bugs during the validation phase
+
+* The about-me.html file had 2 errors at first: I forgot to add the alt attribute to the images and I set their width to "100%" instead of to "100"(these errors were repeted for each image).
+Once I corrected that, the file passed the validator test.
+![about-me.html](./readme/aboutme.png)
+
+* The work-experience.html file had 1 error at first: the W3C said that a closing paragraph tag was found but not an opening one (this error was repeted 3 times).
+The opening paragraph tag was actually there but I think the error was created by the fact that I placed an unordered list inside the paragraph.
+Once I moved the unordered list out of the paragraph the error disappeared.
+![work-experience.html](./readme/workexperience.png)
+
+* The contact.html file had 1 warning: In the snippet from EmailJS that connects the form to my email, insite the script tag there was also a type attribute (this error was found 2 times).
+I removed it and luckily the error disappeared and the form was still working correctly.
+![contact.html](./readme/contactme.png)
 
 ---------------------------------------------------------------------------
 
