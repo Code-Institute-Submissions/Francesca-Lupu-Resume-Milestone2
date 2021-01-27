@@ -42,7 +42,6 @@
     /*--|general|--*/
 
     h1{
-        margin-bottom: 50px;
         font-size: 60px;
     }
 
@@ -70,10 +69,6 @@
     }
 
     /*--|about me|--*/
-
-    .photo img {
-        margin-top: 50px;
-    }
 
     .hello{
         font-size: 60px;
@@ -172,6 +167,12 @@
 
     .image{
         position: fixed;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+
+    .me{
+        width: 85%;
     }
 
     .card{
@@ -182,12 +183,13 @@
     }
 
     .hello{
-        font-size: 40px;
+        font-size: 40px; 
     }
 
     .intro{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
+        margin: 10px 80px;
     }
 
     .photo img{

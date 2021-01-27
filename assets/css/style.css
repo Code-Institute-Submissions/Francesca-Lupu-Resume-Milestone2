@@ -151,16 +151,17 @@ canvas{
 }
 
 .me{
-    width: 40%;
+    width: 60%;
 }
 
 .image{
-    margin-top: 10px;
     text-align: center;
+    margin-top: 5%;
 }
 
 .hello{
     background-color: rgb(145, 211, 122);
+    margin-top: 5%;
 }
 
 .intro{
