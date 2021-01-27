@@ -1,11 +1,18 @@
 
 //Validation form name, email and message
+//Is been also added regEX validator rule for name (in order to exclude numbers or spaces after the last character)
+//and for message (to avoid entering all spaces)
 
 $(function() {
+    $.validator.addMethod("regex", function(value, element, regexpr) {          
+    return regexpr.test(value);
+    });
+
   $("form[name='myForm']").validate({
     rules: {
       name: {
           required: true,
+          regex: /^[a-zA-Z]+(?:\s+[a-zA-Z]+)*$/
       },
       emailaddress: {
         required: true,
@@ -13,18 +20,22 @@ $(function() {
       },
       message: {
         required: true,
-        minlength: 10
+        minlength: 10,
+        regex: /.*[^ ].*/
       }
     },
 
 //Validation messages
-
     messages: {
-      name: "Please enter your name.",
+      name: {
+        required: "Please enter your name.",
+        regex: "Please enter a valid name. No special characters are allowed"
+      },
       email: "Please enter a valid email address.",
       message: {
         required: "Please provide a description.",
-        minlength: "Your message must be at least 10 characters long."
+        minlength: "Your message must be at least 10 characters long.",
+        regex: "Please enter a valid message."
       },
       
     },

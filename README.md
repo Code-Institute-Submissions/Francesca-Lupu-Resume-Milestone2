@@ -97,6 +97,7 @@ the other ones contain the name and link to the other pages and are of the color
 When hovering on them the text "bounces in" and gets white.
 The navigation menu changes in the other pages and it becomes a line on top of the screen with the names (and links) to the other pages.
 When you are for example in the "About me" page, the name of the page in the navigation menu with become white.
+For the home link I am using a logo with my name.
 This menu transforms in a collapsable hamburger menu on mobile devices.
 
 * Homepage background: The background of the homepage is been created with Javascript and is black with some colored balls jumping around.
@@ -237,55 +238,71 @@ The website display perfectly and all the features work great on all browsers.
 
 * As a moderator I want visitors and potential employers to view my resume, so they can understand more about me and possibly offer me a job.
 * As a visitor I want to understand more about the moderator so I can appreciate if she can be the right person for my vacant place.
+
+The visitor and navigate through the pages of the website and learn different aspects about me.
+
 * As a moderator, I want my website to be easily accessible, that's why I will make it responsive for a large range of devices.
 * As a visitor, I want to be able to view the moderator's website/resume even if I am on the go, that's why I want it to be possible to access from my smartphone or tablet, besides my pc.
-* As a moderator I want the visitor to feel like he/she knows a bit about me so I will provide access to my personal social media.
-* As a visitor I want to browse through the moderator’s website so I can get an idea about both her skills and her personality.
 
 The website is fully responsive and it works and displays great on many devices, from the mobile to the big desktop screen.
+
+* As a moderator I want the visitor to feel like he/she knows a bit about me so I will provide access to my personal social media.
+
 At the bottom of every page is displayed the footer containing my social media. By clicking on the selected logo the visitors can view my Facebook, Instagram and Twitter page.
+
+* As a visitor I want to browse through the moderator’s website so I can get an idea about both her skills and her personality.
+
 The resume is designed to show both my hard and soft skills to give a global idea about me to the visitor.
 
 #### Homepage
 
 * As a moderator I want my webpage to be eye catching but still be simple and clean so it will impress and attract the visitor. 
 * As a visitor I want to be attracted by the design first so I will be more persuaded to look into the website.
+
+The homepage background is been designed to be eyecatching and coherent with the rest of the page but to not distract from the main menu.
+The background with the bouncing balls was used to seem original and to persuade to explore more into the website.
+
 * As a moderator I want my website to be easy to consult so I will provide the visitor with an intuitive navigation menu to allow him/her to access the various areas.
 * As a visitor I want to easily browse between the website sections that’s why I want the menu to be simple and functional.
 
-The homepage background is been designed to be eyecatching and coherent with the rest of the page but to not distract from the main menu.
 The navigation menu is intuitive and located in the center of the page. By clicking on the name of the selected page he/she will immediately accede it.
 
 #### About me
 
 * As a moderator I want the visitors to understand who I am that is why I will provide this section with a picture of me and an introduction.
 * As a visitor it is nice to put a face to a name that is why I would like to see a picture and read a few lines about her in order to know who I am reading about.
+
+On this page I displayed a picture of myself so that the visitors can put a face on the name. I also wrote a little introduction about me and explaining the working position I am looking for.
+
 * As a moderator I want the visitor to know, besides professional information about me, also something more personal, that is why I want to add my hobbies.
 * As a visitor I want to have a little but global knowledge about the person I am considering for my vacant position, for this motivation I would also like to know what her passions and her interests are.
 
-On this page I displayed a picture of myself so that the visitors can put a face on the name. I also wrote a little introduction about me and explaining the working position I am looking for.
 Underneath this intro, the visitor can find also a little section with my main 4 hobbies, so he/she can have an idea about my interests.
 
 #### Education
 
 * As a moderator I want the visitors to easily see on a map the places where I studied so that they can understand more about my background.
 * As a visitor I want to easily see where the moderator got her education and built her skills so I can have more details about her and her studies.
+
+In this page the visitor can view on a map the last 3 places I studies.Underneath the map the visitor will find information about what I did in those locations (what I studied there and the qualifications I got).
+
 * As a moderator I want the visitor to be able to get all the necessary information about where I recieved my eduaction; for this reason I will provide phone number and address for each of the places.
 * As a visitor I want to have access to some details on the places where the moderator studied in case I would need to contact them for references.
 
-In this page the visitor can view on a map the last 3 places I studies, moreover by clicking on the marker it will be displayed some contact information for each place.
-Underneath the map the visitor will find information about what I did in those locations (what I studied there and the qualifications I got).
+By clicking on the marker it will be displayed some contact information for each place. The visitor will have access to phone number and address of every location.
 
 #### Work Experience
 
 * As a moderator I want to display all my working experiences on a map so that the visitor will see at a glance all the places I worked before.
 * As a visitor and possible future employer, I want to see where the moderator worked before as I can get an idea of her background and experiences.
+
+In this page, as the previous one, some locations will be shown on a map. The visitor this time will be able to see the last 3 places where I worked.
+Moreover under the map the visitor will find some details about the tasks that I had when I was working in those places.
+
 * As a moderator, I want the visitors to be able to get information about the places I worked, that's why I will provide every place with some extra details.
 * As a visitor, if I read about a place that I am not familiar with I would like to be able to research it ; that's why I would like to have some extra information about the moderators previous work places.
 
-In this page, as the previous one, some locations will be shown on a map. The visitor this time will be able to see the last 3 places where I worked.
-By clicking on the marker he/she will be able to get address and phone number of the places.
-Moreover under the map the visitor will find some details about the tasks that I had when I was working in those places.
+By clicking on the marker the visitor will be able to get address and phone number of the places.
 
 #### Skills
 
@@ -378,6 +395,7 @@ The contact form is been implemented with [EmailJS](https://www.emailjs.com/) to
 #### 6.1 Media
 
 The [uno.jpg](./assets/pics/uno.jpg) and [netflix.jpg](./assets/pics/netflix.jpg) pictures have been taken from [Unsplash](https://unsplash.com/) while the other pictures that have been used belong to me.
+To design the logo I used [Canva](https://www.canva.com/).
 
 #### 6.2 Acknowledgments
 
