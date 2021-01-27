@@ -7,7 +7,7 @@ This website has been created to display my resume.
 Its scope is to provide to possible employers a better experience than the traditioal method of a Curriculum Vitae
 printed on a sheet of paper.
 
-You can visit my resume by clicking [here](https://fral96.github.io/Milestone-2/).
+You can visit my resume by clicking [here](https://fral96.github.io/Francesca-Lupu-Resume-Milestone2/).
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## 1. UX
@@ -342,28 +342,36 @@ I deployed this website on Github pages.
 The procedure was the following:
 
 1. Google search "Github" and click the first result.
-2. Log in with my username and password
-3. Select the repository "Milestone-2"
-4. Click on settings
-5. Scroll down to "Github Pages"
-6. Select Branch as Master and save
-7. Refresh the page
-8. Scroll down to the same section
-9. A message will appear saying "Your site is published at: https://fral96.github.io/Milestone-2/ "
-10. Click on that URL and you will be redirected to the website
+2. Log in with my username and password.
+3. Select the repository "Francesca-Lupu-Resume-Milestone2".
+![Select Repository](./readme/clone-and-deploy-1.png)
+4. Click on settings (on top of the green button).
+![Click Settings](./readme/deploy-2.png)
+5. Scroll down to "Github Pages".
+6. Select Branch as Master and save.
+7. Refresh the page.
+8. Scroll down to the same section.
+9. A message will appear saying "Your site is published at: https://fral96.github.io/Francesca-Lupu-Resume-Milestone2/".
+![Published website](./readme/deploy-3.png)
+10. Click on that URL and you will be redirected to the website.
+![Website](./readme/deploy-4.png)
 
 --------------------------------------------------------------------
 
 #### To clone the project
 
 1. Google search "Github" and click the first result.
-2. Log in with my username and password
-3. Select the repository "Milestone-2"
-4. Click on the green "Code" button on the right
-5. Copy the HTTPS link
-6. Open your terminal and select the position where to clone the project
-7. Type "git clone" and paste the copied link
-8. Press enter and the file will show up in the selected location
+2. Log in with my username and password.
+3. Select the repository "Francesca-Lupu-Resume-Milestone2".
+![Select Repository](./readme/clone-and-deploy-1.png)
+4. Click on the "Code" button on the right.
+![Click Green Button](./readme/clone-2.png)
+5. Copy the HTTPS link.
+6. Open Git Bash from your computer.
+7. Type "git clone" and paste the copied link.
+![Git Clone](./readme/clone-3.png)
+8. Press enter and the file will be downloaded on your computer.
+![Downloaded file](./readme/clone-4.png)
 
 --------------------------------------------------------------------------
 
