@@ -316,6 +316,10 @@ Then, also with the help of my mentor, I noticed that it made it a bit difficult
 To solve this issue I set the background on black and applyed a 50% opacity to the background balls.
 This will maintaing the coherence of the page by reducing the distraction.
 
+* When I was about to submit my project I realised that after sending an email from the contact form, an error showed up
+in the console saying that the sendMail function was not defined. After trying more times to modify my js code, I also tried to remove the "onSubmit"
+attribute from the form. This solution seemed to solve my problem; the error message disappeared and the contact form continued to work perfectly fine.
+
 ##### Bugs during the validation phase
 
 * The about-me.html file had 2 errors at first: I forgot to add the alt attribute to the images and I set their width to "100%" instead of to "100"(these errors were repeted for each image).
