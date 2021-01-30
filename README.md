@@ -4,7 +4,7 @@
 ![My Resume](./readme/responsive.png)
 
 This website has been created to display my resume.
-Its scope is to provide to possible employers a better experience than the traditioal method of a Curriculum Vitae
+Its scope is to provide to possible employers a better experience than the traditional method of a Curriculum Vitae
 printed on a sheet of paper.
 
 You can visit my resume by clicking [here](https://fral96.github.io/Francesca-Lupu-Resume-Milestone2/).
@@ -19,9 +19,9 @@ This resume website has been designed to help both potential employers and mysel
 The idea is that an employer with a vacant position in his company could view my website
 and get an idea about me and about my coding skills.
 
-This will certainly also be helpful personaly as it could be a useful tool in securing future employment in this field.
+This will certainly also be helpful personally as it could be a useful tool in securing future employment in this field.
 
-In fact, in my opinion while looking for a position in such creative work field, there is a need for more than a simple paper resume 
+In fact, in my opinion while looking for a position in such creative work field, there is a need for more than a simple paper resume.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -81,9 +81,9 @@ In fact, in my opinion while looking for a position in such creative work field,
 The wireframes for this project were designed on Balsamiq.
 Click on the following link to view them.
 
-* [Desktop](./assets/wireframes/desktop-wireframe.pdf)
-* [Tablet](./assets/wireframes/tablet-wireframe.pdf)
-* [Mobile](./assets/wireframes/mobile-wireframe.pdf)
+* [Desktop](./wireframes/desktop-wireframe.pdf)
+* [Tablet](./wireframes/tablet-wireframe.pdf)
+* [Mobile](./wireframes/mobile-wireframe.pdf)
 
 ------------------------------------------
 
@@ -96,7 +96,7 @@ The first one, with a picture of mine in it contains the link to the home,
 the other ones contain the name and link to the other pages and are of the color of the page they represent.
 When hovering on them the text "bounces in" and gets white.
 The navigation menu changes in the other pages and it becomes a line on top of the screen with the names (and links) to the other pages.
-When you are for example in the "About me" page, the name of the page in the navigation menu with become white.
+When you are for example in the "About me" page, the name of the page in the navigation menu will become white.
 For the home link I am using a logo with my name.
 This menu transforms in a collapsable hamburger menu on mobile devices.
 
@@ -108,21 +108,21 @@ This background is been chosen to match the navigation menu of the homepage. The
 The icons of the social networks are located into small grey circles that become black when hovering on them.
 
 * About me: In this page is displayed a picture of me on the left that scrolls down when the page is being scrolled.
-On the right instead there is an inctroduction text about myself. At its bottom there are some pictures of my favorite hobbies displayed into ovals.
+On the right instead there is an introduction text about myself. At its bottom there are some pictures of my favorite hobbies displayed into ovals.
 Underneath every picture there is a card with a little text about each of them.
 
 * My Education: In this page, on the top is displayed a map from [Google Maps](https://www.google.com/maps) with some markers representing the last 3 places where I studied.
 When clicking on a marker, an infowindow will open and will display the name, type, address and phone number of each place.
 The markers contain some letters (A, B and C) and those are to connect them to the text located underneath the map.
-There is a little text for each location with the name, location, date I studied there and the title I got after completing the studies.
+There is a little text for each location with the name, location, date I studied there and the qualification I got after completing the studies.
 
 * My Work Experience: This page is very similar to the previous. The only differences are that this time on the map are represented my previous employment places.
 These markers also contain letters to connect them to the texts under the map. In these texts this time there are also little lists with the tasks I had when working in that specific place.
 
 * My Skills: In the skills page I listed my top 6 skills. In order to identify them better and improve the design, on top of each skill there is an icon that represents it.
 
-* Contact me: In this page the visitors of the website can contact me. There is a form and filling up name, email address and message (and pressing "Submit") I will receive the message on my email.
-The form has some validation requirements: the name has to be filled in, the email address will be valid just if all the jQuery requirements are met and the message has to be long at least 10 characters.
+* Contact me: In this page the visitors of the website can contact me. There is a form and filling up name, email address and message (and pressing "Send") I will receive the message on my email.
+The form has some validation requirements: the name has to be filled in and do not contain digits, the email address will be valid just if all the jQuery requirements are met and the message has to be long at least 10 characters and do not be composed by only white spaces.
 After all the requirements are met and the "Send" button is been pressed an alert will inform the visitor if the message is been sent or not.
 If the message is been sent correctly the form will be cleared after pressing "OK" on the alert. 
 
@@ -178,6 +178,7 @@ If the message is been sent correctly the form will be cleared after pressing "O
 * The home.js file passed the validator without errors.
 
 * The map-edu.js and map-we.js files passed the validator without errors. They only had one warning. I decided to don't modify anything about it.
+
 ![map-edu.js](./readme/js.png)
 -------------------------------------------------------------
 
@@ -309,12 +310,12 @@ By searching on [Bootstrap](https://getbootstrap.com/) I found out that I had to
 * I also had some issue in positioning the text "Work Experience" in the ball in the "Homepage".
 I tried to use "line-height" to position the text of all the page names at the center of their ball.
 However being "Work Experience" written on two lines, by applying that styling the space was applyed also between the 2 lines of this text, placing the word "Work" in the center of the ball,
-while the word "Experince" in the bottom, out of the ball. I solved this by using "margin-top" instead.
+while the word "Experience" in the bottom, out of the ball. I solved this by using "margin-top" instead.
 
 * I also had a little issue with the background of the Homepage. At first I set it on white with bright colored balls.
 Then, also with the help of my mentor, I noticed that it made it a bit difficult and a bit distracting to distinguish the background balls from the menu ones.
 To solve this issue I set the background on black and applyed a 50% opacity to the background balls.
-This will maintaing the coherence of the page by reducing the distraction.
+This will maintain the coherence of the page by reducing the distraction.
 
 * When I was about to submit my project I realised that after sending an email from the contact form, an error showed up
 in the console saying that the sendMail function was not defined. After trying more times to modify my js code, I also tried to remove the "onSubmit"
@@ -331,7 +332,7 @@ The opening paragraph tag was actually there but I think the error was created b
 Once I moved the unordered list out of the paragraph the error disappeared.
 ![work-experience.html](./readme/workexperience.png)
 
-* The contact.html file had 1 warning: In the snippet from EmailJS that connects the form to my email, insite the script tag there was also a type attribute (this error was found 2 times).
+* The contact.html file had 1 warning: In the snippet from EmailJS that connects the form to my email, inside the script tag there was also a type attribute (this error was found 2 times).
 I removed it and luckily the error disappeared and the form was still working correctly.
 ![contact.html](./readme/contactme.png)
 
@@ -348,16 +349,23 @@ The procedure was the following:
 1. Google search "Github" and click the first result.
 2. Log in with my username and password.
 3. Select the repository "Francesca-Lupu-Resume-Milestone2".
+
 ![Select Repository](./readme/clone-and-deploy-1.png)
+
 4. Click on settings (on top of the green button).
+
 ![Click Settings](./readme/deploy-2.png)
+
 5. Scroll down to "Github Pages".
 6. Select Branch as Master and save.
 7. Refresh the page.
 8. Scroll down to the same section.
 9. A message will appear saying "Your site is published at: https://fral96.github.io/Francesca-Lupu-Resume-Milestone2/".
+
 ![Published website](./readme/deploy-3.png)
+
 10. Click on that URL and you will be redirected to the website.
+
 ![Website](./readme/deploy-4.png)
 
 --------------------------------------------------------------------
@@ -367,14 +375,21 @@ The procedure was the following:
 1. Google search "Github" and click the first result.
 2. Log in with my username and password.
 3. Select the repository "Francesca-Lupu-Resume-Milestone2".
+
 ![Select Repository](./readme/clone-and-deploy-1.png)
+
 4. Click on the "Code" button on the right.
+
 ![Click Green Button](./readme/clone-2.png)
+
 5. Copy the HTTPS link.
 6. Open Git Bash from your computer.
 7. Type "git clone" and paste the copied link.
+
 ![Git Clone](./readme/clone-3.png)
+
 8. Press enter and the file will be downloaded on your computer.
+
 ![Downloaded file](./readme/clone-4.png)
 
 --------------------------------------------------------------------------
@@ -386,8 +401,6 @@ The procedure was the following:
 This website is been created by me. The general structure is been inspired by the [Rosie Resume](https://github.com/FraL96/Rosie_resume) from [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) and from the [Milestone 1](https://github.com/FraL96/Milestone_1_StreamingPal_Website) created by me.
 
 The homepage background is been created by [Roger van Hout](https://codepen.io/b4rb4tron/pen/wjyXNJ) and then modified by me to adapt it to my project.
-
-The icons used in the "My Skills" area are from [Fontawesome](https://fontawesome.com/v4.7.0/).
 
 To realize the maps in the "My Education" and "My Work Experience" pages I got the [Google](https://developers.google.com/maps/documentation/javascript/examples/marker-simple) snippet on how to create a map with a marker,
 then I combined it with a snippet from [ASP Snippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx) to add the infowindows.
@@ -401,7 +414,10 @@ The contact form is been implemented with [EmailJS](https://www.emailjs.com/) to
 #### 6.1 Media
 
 The [uno.jpg](./assets/pics/uno.jpg) and [netflix.jpg](./assets/pics/netflix.jpg) pictures have been taken from [Unsplash](https://unsplash.com/) while the other pictures that have been used belong to me.
+
 To design the logo I used [Canva](https://www.canva.com/).
+
+The icons used in the "My Skills" area are from [Fontawesome](https://fontawesome.com/v4.7.0/).
 
 #### 6.2 Acknowledgments
 
